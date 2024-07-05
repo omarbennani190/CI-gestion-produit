@@ -1,0 +1,16 @@
+language: java
+
+jdk: openjdk21
+
+cache:
+  directories:
+    - $HOME/.m2
+
+script:
+  - mvn clean install
+
+notifications:
+  email:
+    recipients:
+      - mezianiyoussef564@gmail.com
+      - omar.d.bennani@gmail.com
